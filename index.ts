@@ -33,8 +33,8 @@ while (loop) {
 if(todos.length > 0) {
     console.log("Your Todo List: \n")
     todos.forEach(todo => {
-        console.log(todo)
+        console.log(chalk.green(todo))
     });
 } else {
-    console.log("No TODOS founds")
+    console.log(chalk.red("No TODOS founds"))
 }

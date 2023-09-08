@@ -1,11 +1,11 @@
 {
-  "name": "todo-list-cli",
-  "version": "1.0.0",
+  "name": "cli_todo_list_adnan",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "cli_calculator_adnan": "./index.js"
+    "cli_todo_list_adnan": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
